@@ -1,0 +1,30 @@
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.news-item {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.news-header {
+    text-align: center;
+}
+
+.news-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #5cabff;
+}
